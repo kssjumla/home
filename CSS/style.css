@@ -61,7 +61,7 @@ header nav ul.action-menu .nav-item .nav-link {
 .carousel-item {
   width: 100%;
   /* height: 100vh!important; */
-  height: 500px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
