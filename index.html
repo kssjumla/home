@@ -456,7 +456,7 @@
 <section style="background-color: rgb(0, 217, 255);" 
 data-aos="fade-up">
     <div style="color: orangered;"><b>
-        <marquee class="Marquee" style="background-color: black;" onmouseover="this.stop();" onmouseout="this.start();" direction="left" scrollamount="4" behavior="scroll"> 
+        <marquee class="Marquee" style="background-color: black;" onmouseover="this.stop();" onmouseout="this.start();" direction="left" scrollamount="7" behavior="scroll"> 
         <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HELLO -->
         <span><a href="tel:9848313081"  style="color: orangered;">
                 <i class="bi bi-phone me-3"></i> +977-9848XXXXXX</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
@@ -581,7 +581,36 @@ data-aos="fade-up">
         </script>
         <!-- END AOS Slider -->
 
-        
-</body>
+        <!-- Chat plugin  -->
+        <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "686488491404800");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
 </html>
