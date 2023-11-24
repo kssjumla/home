@@ -30,9 +30,10 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .nav-link:hover {
-  background-color: rgb(0, 234, 255);
+  background-color: rgb(4, 74, 81);
   border-radius: 19px; 
-  /* color: #da6fe2; */
+  color: #da6fe2;
+  /* color: greenyellow;
 }
 .social-icon:hover{
   background-color: orange;
@@ -308,11 +309,11 @@ header nav ul.action-menu .nav-item .nav-link {
   color: #ffcf88;
 }
 .Marquee {
-  color: #da6fe2;
-  background-color: transparent;
+  color: orangered;
+  background-color: black;
   font-family: work sans;
-  font-size: 34px;
-  line-height: 50px;
+  font-size: 20px;
+  /* line-height: 50px; */
   padding: 0px;
   font-weight: bold;
 }

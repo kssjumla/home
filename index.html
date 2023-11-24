@@ -49,7 +49,7 @@
                         <a href="" class="me-4 text-reset social-icon">
                             <i class="bi bi-twitter"></i>
                         </a>
-                        <a href="" class="me-4 text-reset social-icon">
+                        <a href="mailto:kssjumla@gmail.com" class="me-4 text-reset social-icon">
                             <i class="bi bi-google"></i>
                         </a>
                         <a href="" class="me-4 text-reset social-icon">
@@ -82,28 +82,34 @@
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"
-                                style="background-color: rgb(0, 234, 255);border-radius: 19px; ">Home</a>
+                                style="color: orangered; font-weight: bolder;" onMouseOver="this.style.color='#0F0'"
+                                onMouseOut="this.style.color='orangered'">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="about.html" onMouseOver="this.style.color='#0F0'"
+                                onMouseOut="this.style.color=''">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="course.html">Courses</a>
+                            <a class="nav-link" href="course.html" onMouseOver="this.style.color='#0F0'"
+                                onMouseOut="this.style.color=''">Courses</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="#" onMouseOver="this.style.color='#0F0'"
+                                onMouseOut="this.style.color=''">Gallery</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Gallery</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="contactus.html">Contact us</a>
+                            <a class="nav-link" href="contactus.html" onMouseOver="this.style.color='#0F0'"
+                                onMouseOut="this.style.color=''">Contact us</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav mb-2 mb-lg-0 action-menu">
                         <li class="nav-item">
-                            <a class="nav-link " href="login.html">
+                            <a class="nav-link " href="login.html" onMouseOver="this.style.color='#0F0'"
+                            onMouseOut="this.style.color=''">
                                 <i class="bi bi-person-circle" style="font-size: 18px;"></i> Login
                                 <!-- <i class="bi bi-person " style="font-size: 18px;"></i>login  -->
                             </a>
@@ -129,7 +135,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="img-fluid w-100 h-100 overflow-hidden" src="img/school/slider0.jpg" class="d-block w-100"
-                    alt="...">
+                    alt="..." data-bs-interval="2000">
                 <div class="carousel-caption d-block">
                     <h5>Shree Karnali Secondary School</h5>
                     <p>"Quality education is our destination point."</p>
@@ -137,7 +143,7 @@
             </div>
             <div class="carousel-item">
                 <img class="img-fluid w-100 h-100 overflow-hidden" src="img/school/slider3.jpg" class="d-block w-100"
-                    alt="...">
+                    alt="..." data-bs-interval="2000">
                 <div class="carousel-caption d-block">
                     <h5>Shree Karnali Secondary School</h5>
                     <p>"Quality education is our destination point."</p>
@@ -145,7 +151,7 @@
             </div>
             <div class="carousel-item">
                 <img class="img-fluid w-100 h-100 overflow-hidden" src="img/school/slider5.jpg" class="d-block w-100"
-                    alt="...">
+                    alt="..." data-bs-interval="2000">
                 <div class="carousel-caption d-block">
                     <h5>Shree Karnali Secondary School</h5>
                     <p>"Quality education is our destination point."</p>
@@ -153,7 +159,7 @@
             </div>
             <div class="carousel-item">
                 <img class="img-fluid w-100 h-100 overflow-hidden" src="img/school/slider2.jpg" class="d-block w-100"
-                    alt="...">
+                    alt="..." data-bs-interval="2000">
                 <div class="carousel-caption d-block">
                     <h5>Shree Karnali Secondary School</h5>
                     <p>"Quality education is our destination point."</p>
@@ -447,10 +453,22 @@
             </div>
         </section>
 
-
+<section style="background-color: rgb(0, 217, 255);" 
+data-aos="fade-up">
+    <div style="color: orangered;"><b>
+        <marquee class="Marquee" style="background-color: black;" onmouseover="this.stop();" onmouseout="this.start();" direction="left" scrollamount="7" behavior="scroll"> 
+        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HELLO -->
+        <span><a href="tel:9848313081"  style="color: orangered;">
+                <i class="bi bi-phone me-3"></i> +977-9848XXXXXX</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>
+        <i class="bi bi-clock"></i> Sun-Fri: 10:00 AM - 04:00 PM &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:9848313081" style="color: orangered;"><i class="bi bi-whatsapp">+977-9848XXXXXX</i></a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+    </marquee></b>
+</div>
+</section>
         <!-- Footer -->
         <footer class="text-center text-lg-start py-3 text-white" style="background-color: rgb(13, 83, 154);"
-            data-aos="fade-up">
+        data-aos="fade-up">
 
             <!-- Section: Social media -->
 
@@ -535,9 +553,9 @@
 
             <!-- Copyright -->
             <div class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2023 Copyright and Powered by:
+                Copyright © 2023 : KSS Jumla. <br>Powered by:
                 <label style="color: orangered;" onMouseOver="this.style.color='#0F0'"
-                    onMouseOut="this.style.color='orangered'"><a class="text-reset fw-bold" style="font-size: 20px;"
+                    onMouseOut="this.style.color='orangered'"><a class="text-reset fw-bold" style="font-size: 18px;"
                         href="https://unstopablesafar08.github.io/portfolio/" target="_blank" rel="nofollow"> Sagar
                         Malla</a></label>
             </div>
@@ -562,6 +580,8 @@
             AOS.init();
         </script>
         <!-- END AOS Slider -->
+
+        
 </body>
 
 </html>
