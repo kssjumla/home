@@ -33,7 +33,7 @@ header nav ul.action-menu .nav-item .nav-link {
   background-color: rgb(4, 74, 81);
   border-radius: 19px; 
   color: #da6fe2;
-  /* color: greenyellow;
+  color: greenyellow; 
 }
 .social-icon:hover{
   background-color: orange;
