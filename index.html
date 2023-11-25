@@ -109,7 +109,7 @@
                     <ul class="navbar-nav mb-2 mb-lg-0 action-menu">
                         <li class="nav-item">
                             <a class="nav-link " href="login.html" onMouseOver="this.style.color='#0F0'"
-                            onMouseOut="this.style.color=''">
+                                onMouseOut="this.style.color=''">
                                 <i class="bi bi-person-circle" style="font-size: 18px;"></i> Login
                                 <!-- <i class="bi bi-person " style="font-size: 18px;"></i>login  -->
                             </a>
@@ -204,8 +204,9 @@
 
                     <div class="col-lg-5 align-items-stretch video-box"
                         style='background-image: url("https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585_960_720.jpg");'
-                        data-aos="fade-up" >
-                        <a href="https://www.youtube.com/watch?v=4QCQo_l4ytA" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                        data-aos="fade-up">
+                        <a href="https://www.youtube.com/watch?v=4QCQo_l4ytA" class="venobox play-btn mb-4"
+                            data-vbtype="video" data-autoplay="true"></a>
                     </div>
 
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
@@ -360,7 +361,7 @@
                 <section class="mb-4">
 
                     <!--Section heading-->
-                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Content and Navigaion</h2>
                     <!--Section description-->
                     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate
                         to contact us directly. Our team will come back to you within
@@ -368,71 +369,72 @@
 
                     <div class="row">
 
-                        <!--Grid column-->
-                        <div class="col-md-6 mb-md-0 mb-5" data-aos="fade-up">
-                            <form id="contact-form" name="contact-form" action="index.html" method="POST">
+                        <!-- 
+<div class="col-md-6 mb-md-0 mb-5" data-aos="fade-up">
+    <form id="contact-form" name="contact-form" action="index.html" method="POST">
+        <div class="row">
 
-                                <!--Grid row-->
-                                <div class="row">
+        
+            <div class="col-md-6">
+                <div class="md-form mb-0"><label for="name" class="">Your name</label>
+                    <input type="text" required id="name" name="name" class="form-control"
+                        placeholder="Enter your Name here."> <br>
 
-                                    <!--Grid column-->
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0"><label for="name" class="">Your name</label>
-                                            <input type="text" required id="name" name="name" class="form-control"
-                                                placeholder="Enter your Name here."> <br>
+                </div>
+            </div>
+        
 
-                                        </div>
-                                    </div>
-                                    <!--Grid column-->
+        
+            <div class="col-md-6">
+                <div class="md-form mb-0"><label for="email" class="">Your email</label>
+                    <input type="email" id="email" name="email" class="form-control"
+                        placeholder="Enter Your Email ID here" required><br>
 
-                                    <!--Grid column-->
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0"><label for="email" class="">Your email</label>
-                                            <input type="email" id="email" name="email" class="form-control"
-                                                placeholder="Enter Your Email ID here" required><br>
+                </div>
+            </div>
+        
 
-                                        </div>
-                                    </div>
-                                    <!--Grid column-->
+        </div>
 
-                                </div>
-                                <!--Grid row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="md-form mb-0"><label for="subject" class="">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-control"
+                        placeholder="Enter Subject here." required><br>
+                </div>
+            </div>
+        </div>
 
-                                <!--Grid row-->
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-0"><label for="subject" class="">Subject</label>
-                                            <input type="text" id="subject" name="subject" class="form-control"
-                                                placeholder="Enter Subject here." required><br>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Grid row-->
+        <div class="row">
 
-                                <!--Grid row-->
-                                <div class="row">
+            
+            <div class="col-md-12">
 
-                                    <!--Grid column-->
-                                    <div class="col-md-12">
+                <div class="md-form"><label for="message">Your message</label>
+                    <textarea type="text" id="message" name="message" rows="2"
+                        class="form-control md-textarea" placeholder="Enter your messagr here."
+                        required></textarea><br>
+                </div>
 
-                                        <div class="md-form"><label for="message">Your message</label>
-                                            <textarea type="text" id="message" name="message" rows="2"
-                                                class="form-control md-textarea" placeholder="Enter your messagr here."
-                                                required></textarea><br>
-                                        </div>
+            </div>
+        </div>
 
-                                    </div>
-                                </div>
-                                <!--Grid row-->
 
-                            </form>
+    </form>
 
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-primary"
-                                    onclick="document.getElementById('contact-form').submit();">Send</a>
-                                <!-- <a class="btn btn-primary" href=""><input type="submit" value="Send"></a> -->
-                            </div>
-                            <div class="status"></div>
+    <div class="text-center text-md-left">
+        <a class="btn btn-primary"
+            onclick="document.getElementById('contact-form').submit();">Send</a>
+    </div>
+    <div class="status"></div>
+</div>
+-->
+                        <!-- Youtube -->
+                        <div class="col-md-6 text-center" data-aos="fade-up">
+                            <iframe style="border: 1px solid rgb(0, 0, 0); border-radius: 5px 5px; box-shadow: 5px 5px 2px 0px rgba(94, 98, 99, 0.75);" width="570" height="306" src="https://www.youtube.com/embed/nWOND-qwjYk"
+                                title="School Memories..." frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
                         <!--Grid column-->
 
@@ -453,22 +455,26 @@
             </div>
         </section>
 
-<section style="background-color: rgb(0, 217, 255);" 
-data-aos="fade-up">
-    <div style="color: orangered;"><b>
-        <marquee class="Marquee" style="background-color: black;" onmouseover="this.stop();" onmouseout="this.start();" direction="left" scrollamount="7" behavior="scroll"> 
-        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HELLO -->
-        <span><a href="tel:9848313081"  style="color: orangered;">
-                <i class="bi bi-phone me-3"></i> +977-9848XXXXXX</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-        </span>
-        <i class="bi bi-clock"></i> Sun-Fri: 10:00 AM - 04:00 PM &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="tel:9848313081" style="color: orangered;"><i class="bi bi-whatsapp">+977-9848XXXXXX</i></a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-    </marquee></b>
-</div>
-</section>
+        <section style="background-color: rgb(0, 217, 255);" data-aos="fade-up">
+            <div style="color: orangered;"><b>
+                    <marquee class="Marquee" style="background-color: black;" onmouseover="this.stop();"
+                        onmouseout="this.start();" direction="left" scrollamount="7" behavior="scroll">
+                        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HELLO -->
+                        <span><a href="tel:9848313081" style="color: orangered;">
+                                <i class="bi bi-phone me-3"></i>
+                                +977-9848XXXXXX</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span>
+                        <i class="bi bi-clock"></i> Sun-Fri: 10:00 AM - 04:00 PM
+                        &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="mailto:kssjumla@gmail.com" style="color: orangered;"><i class="bi bi-whatsapp">Send a
+                                Mail</i></a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+                    </marquee>
+                </b>
+            </div>
+        </section>
         <!-- Footer -->
         <footer class="text-center text-lg-start py-3 text-white" style="background-color: rgb(13, 83, 154);"
-        data-aos="fade-up">
+            data-aos="fade-up">
 
             <!-- Section: Social media -->
 
@@ -583,34 +589,35 @@ data-aos="fade-up">
 
         <!-- Chat plugin  -->
         <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
+        <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+        <!-- Your Chat Plugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "686488491404800");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "686488491404800");
+            chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
 
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v18.0'
-        });
-      };
+        <!-- Your SDK code -->
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v18.0'
+                });
+            };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
 </body>
+
 </html>
